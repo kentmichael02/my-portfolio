@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html class="container-fluid">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <style>
+         body {
+    background-image: url("light.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+    </style>
+    <main>
+        <header>
+                <nav class="navbar bg-info">
+                    <a href="#">Home</a>
+                    <a href="#about">About Me</a>
+                    <a href="#projects">My Projects</a>
+                    <a href="#contact">Contact Me</a>
+                </nav>
+    </main>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am Kent Michael Banticil a computer engineering student with a passion for creating beautiful and
+                functional websites. I have experience with HTML, CSS, JavaScript, and more.</p>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="project1.jpg" alt="Project 1">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="project2.jpg" alt="Project 2">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="project3.jpg" alt="Project 3">
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+                <br>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2021 My Portfolio.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>
